@@ -1,8 +1,8 @@
 package caldav
 
 import (
-	"caldav.lampalink.com/data"
-	"caldav.lampalink.com/global"
+	"github.com/lampalink/caldav/data"
+	"github.com/lampalink/caldav/global"
 )
 
 // SetupStorage sets the storage to be used by the server. The storage is where the resources data will be fetched from.

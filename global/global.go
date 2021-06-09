@@ -3,8 +3,8 @@
 package global
 
 import (
-	"caldav.lampalink.com/data"
-	"caldav.lampalink.com/lib"
+	"github.com/lampalink/caldav/data"
+	"github.com/lampalink/caldav/lib"
 )
 
 // Storage represents the global storage used in the CRUD operations of resources. Default storage is the `data.FileStorage`.

@@ -1,4 +1,4 @@
-module caldav.lampalink.com
+module github.com/lampalink/caldav
 
 go 1.15
 

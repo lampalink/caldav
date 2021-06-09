@@ -3,8 +3,8 @@ package caldav
 import (
 	"net/http"
 
-	"caldav.lampalink.com/data"
-	"caldav.lampalink.com/handlers"
+	"github.com/lampalink/caldav/data"
+	"github.com/lampalink/caldav/handlers"
 )
 
 // RequestHandler handles the given CALDAV request and writes the reponse righ away. This function is to be

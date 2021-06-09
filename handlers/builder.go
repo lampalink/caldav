@@ -3,8 +3,8 @@ package handlers
 import (
 	"net/http"
 
-	"caldav.lampalink.com/data"
-	"caldav.lampalink.com/global"
+	"github.com/lampalink/caldav/data"
+	"github.com/lampalink/caldav/global"
 )
 
 // HandlerInterface represents a CalDAV request handler. It has only one function `Handle`,

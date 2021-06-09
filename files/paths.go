@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"caldav.lampalink.com/lib"
+	"github.com/lampalink/caldav/lib"
 )
 
 const (

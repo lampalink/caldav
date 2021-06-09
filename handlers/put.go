@@ -3,7 +3,7 @@ package handlers
 import (
 	"net/http"
 
-	"caldav.lampalink.com/errs"
+	"github.com/lampalink/caldav/errs"
 )
 
 type putHandler struct {
