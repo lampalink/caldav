@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/lampalink/caldav/data"
-	"github.com/lampalink/caldav/global"
-	"github.com/lampalink/caldav/ixml"
-	"github.com/lampalink/caldav/lib"
+	"github.com/lampalink/caldav/v3/data"
+	"github.com/lampalink/caldav/v3/global"
+	"github.com/lampalink/caldav/v3/ixml"
+	"github.com/lampalink/caldav/v3/lib"
 )
 
 // Wraps a multistatus response. It contains the set of `Responses`

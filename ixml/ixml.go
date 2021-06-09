@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/lampalink/caldav/lib"
+	"github.com/lampalink/caldav/v3/lib"
 )
 
 const (

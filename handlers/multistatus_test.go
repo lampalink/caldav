@@ -4,7 +4,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/lampalink/caldav/test"
+	"github.com/lampalink/caldav/v3/test"
 )
 
 // Tests the XML serialization when the option to return a minimal content is set or not.

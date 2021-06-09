@@ -3,8 +3,8 @@ package test
 import (
 	"os"
 
-	"github.com/lampalink/caldav/data"
-	"github.com/lampalink/caldav/global"
+	"github.com/lampalink/caldav/v3/data"
+	"github.com/lampalink/caldav/v3/global"
 )
 
 // Creates a fake storage to be used in unit tests.

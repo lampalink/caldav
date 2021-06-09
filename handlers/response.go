@@ -4,7 +4,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/lampalink/caldav/errs"
+	"github.com/lampalink/caldav/v3/errs"
 )
 
 // Response represents the handled CalDAV response. Used this when one needs to proxy the generated

@@ -5,8 +5,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/lampalink/caldav/errs"
-	"github.com/lampalink/caldav/files"
+	"github.com/lampalink/caldav/v3/errs"
+	"github.com/lampalink/caldav/v3/files"
 )
 
 // Storage is the inteface responsible for the CRUD operations on the CalDAV resources. It represents

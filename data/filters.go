@@ -8,7 +8,7 @@ import (
 
 	"github.com/beevik/etree"
 
-	"github.com/lampalink/caldav/lib"
+	"github.com/lampalink/caldav/v3/lib"
 )
 
 const (
