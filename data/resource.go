@@ -11,8 +11,8 @@ import (
 
 	"github.com/laurent22/ical-go"
 
-	"github.com/samedi/caldav-go/files"
-	"github.com/samedi/caldav-go/lib"
+	"caldav.lampalink.com/files"
+	"caldav.lampalink.com/lib"
 )
 
 // ResourceInterface defines the main interface of a CalDAV resource object. This

@@ -1,11 +1,12 @@
 package data
 
 import (
-	"github.com/samedi/caldav-go/errs"
-	"github.com/samedi/caldav-go/files"
 	"io/ioutil"
 	"log"
 	"os"
+
+	"caldav.lampalink.com/errs"
+	"caldav.lampalink.com/files"
 )
 
 // Storage is the inteface responsible for the CRUD operations on the CalDAV resources. It represents

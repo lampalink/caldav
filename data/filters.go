@@ -2,12 +2,13 @@ package data
 
 import (
 	"errors"
-	"github.com/beevik/etree"
 	"log"
 	"strings"
 	"time"
 
-	"github.com/samedi/caldav-go/lib"
+	"github.com/beevik/etree"
+
+	"caldav.lampalink.com/lib"
 )
 
 const (

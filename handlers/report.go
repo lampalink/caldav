@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/samedi/caldav-go/data"
-	"github.com/samedi/caldav-go/ixml"
+	"caldav.lampalink.com/data"
+	"caldav.lampalink.com/ixml"
 )
 
 type reportHandler struct {

@@ -3,8 +3,8 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/samedi/caldav-go/data"
-	"github.com/samedi/caldav-go/global"
+	"caldav.lampalink.com/data"
+	"caldav.lampalink.com/global"
 )
 
 // HandlerInterface represents a CalDAV request handler. It has only one function `Handle`,
@@ -28,12 +28,12 @@ type handlerData struct {
 // With the returned request handler, you can call `Handle()` to handle the request.
 func NewHandler(request *http.Request) HandlerInterface {
 	hData := handlerData{
-		request: request,
+		request:     request,
 		requestBody: readRequestBody(request),
 		requestPath: request.URL.Path,
-		headers: headers{request.Header},
-		response: NewResponse(),
-		storage: global.Storage,
+		headers:     headers{request.Header},
+		response:    NewResponse(),
+		storage:     global.Storage,
 	}
 
 	switch request.Method {

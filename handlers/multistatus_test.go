@@ -4,15 +4,15 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/samedi/caldav-go/test"
+	"caldav.lampalink.com/test"
 )
 
 // Tests the XML serialization when the option to return a minimal content is set or not.
 func TestToXML(t *testing.T) {
 	ms := new(multistatusResp)
 	ms.Responses = append(ms.Responses, msResponse{
-		Href:      "/123",
-		Found:     true,
+		Href:  "/123",
+		Found: true,
 		Propstats: msPropstats{
 			200: msProps{
 				msProp{Tag: xml.Name{Local: "getetag"}},

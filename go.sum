@@ -1,0 +1,8 @@
+github.com/beevik/etree v1.0.1-0.20171015221209-af219c0c7ea1 h1:/9udpB87cmmYGLxT5HHv8OOnBxaWB8xDSMzYdjsK8wU=
+github.com/beevik/etree v1.0.1-0.20171015221209-af219c0c7ea1/go.mod h1:r8Aw8JqVegEf0w2fDnATrX9VpkMcyFeM0FhwO62wh+A=
+github.com/laurent22/ical-go v0.1.1-0.20170824131750-e4fec3492969 h1:E+I+unXFikEPlu8i8uBYzRmr2z31EdSSmBlzu1UKCIY=
+github.com/laurent22/ical-go v0.1.1-0.20170824131750-e4fec3492969/go.mod h1:4LATl0uhhtytR6p9n1AlktDyIz4u2iUnWEdI3L/hXiw=
+github.com/yosssi/gohtml v0.0.0-20190128141317-9b7db94d32d9 h1:fy3FCd+9/SnyVcESUaZ12rrx3qg3jcxFqP6x4iOuJ2s=
+github.com/yosssi/gohtml v0.0.0-20190128141317-9b7db94d32d9/go.mod h1:+ccdNT0xMY1dtc5XBxumbYfOUhmduiGudqaDgD2rVRE=
+golang.org/x/net v0.0.0-20160116025754-c92cdcb05f66 h1:wSw7ZuLZ02Hh2FUsV+WOstMrNrJ+VUoUoOn29hZ4/1Q=
+golang.org/x/net v0.0.0-20160116025754-c92cdcb05f66/go.mod h1:mL1N/T3taQHkDXs73rZJwtUhF3w3ftmwwsq0BUmARs4=

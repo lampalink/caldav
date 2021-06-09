@@ -1,9 +1,10 @@
 package handlers
 
 import (
-	"github.com/samedi/caldav-go/errs"
 	"io"
 	"net/http"
+
+	"caldav.lampalink.com/errs"
 )
 
 // Response represents the handled CalDAV response. Used this when one needs to proxy the generated

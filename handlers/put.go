@@ -1,8 +1,9 @@
 package handlers
 
 import (
-	"github.com/samedi/caldav-go/errs"
 	"net/http"
+
+	"caldav.lampalink.com/errs"
 )
 
 type putHandler struct {

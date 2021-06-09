@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/samedi/caldav-go/ixml"
-	"github.com/samedi/caldav-go/test"
+	"caldav.lampalink.com/ixml"
+	"caldav.lampalink.com/test"
 )
 
 // ============= TESTS ======================
